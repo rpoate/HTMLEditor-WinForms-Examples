@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localizenbit>
+  <interfaceID name="Main">
+    <control name="tsbPrint" text="Print" tooltip="Imprimir" />
+	<control name="tsbElementProperties" text="HTML Element Properties" tooltip="Propiedades del elemento HTML" />
+    <control name="tsbShowCode|ShowCode" text="Mostrar código" tooltip="Mostrar código" />
+    <control name="tsbShowCode|ShowEditor" text="Mostrar editor" tooltip="Mostrar editor" />	
+    <control name="tsbCut" text="Cortar" tooltip="Cortar" />
+    <control name="tsbCopy" text="Copiar" tooltip="Copiar" />
+    <control name="tsbPaste" text="Pegar" tooltip="Pegar" />
+    <control name="tsbUndo" text="Deshacer" tooltip="Deshacer" />
+    <control name="tsbRedo" text="Rehacer" tooltip="Rehacer" />
+    <control name="tsbBold" text="Negrito" tooltip="Negrito" />
+    <control name="tsbItalic" text="Itálico" tooltip="Itálico" />
+    <control name="tsbUnderline" text="Subrayar" tooltip="Subrayar" />
+    <control name="tsbStrikeout" text="Tachar" tooltip="Tachar" />
+    <control name="tsbSuperscript" text="Sobrescrito" tooltip="Sobrescrito" />
+    <control name="tsbSubscript" text="Subíndice" tooltip="Subíndice" />
+    <control name="tsbRemoveFormatting" text="Eliminar formato" tooltip="Eliminar formato" />
+    <control name="tsbAlignLeft" text="Alinear a la izquierda" tooltip="Alinear a la izquierda" />
+    <control name="tsbAlignCentre" text="Alinear al centro" tooltip="Alinear al centro" />
+    <control name="tsbAlignRight" text="Alinear a la derecha" tooltip="Alinear a la derecha" />
+    <control name="tsbAlignJustify" text="Alinear justificado" tooltip="Alinear justificado" />
+    <control name="tsbOrderedList" text="Lista ordenada" tooltip="Lista ordenada" />
+    <control name="tsbUnorderedList" text="Lista desordenada" tooltip="Lista desordenada" />
+    <control name="tsbOutdent" text="Sangrar" tooltip="Sangrar" />
+    <control name="tsbIndent" text="Saangrar imprenta" tooltip="Sangrar imprenta" />
+    <control name="tsbInsertLink" text="Insertar hipervínculo" tooltip="Insertar hipervínculo" />
+    <control name="tsbRemoveLink" text="Eliminar HyperLink" tooltip="Eliminar HyperLink" />
+    <control name="InsertImageToolStripButton" text="Insertar imagen" tooltip="Insertar imagen" />
+    <control name="TableOptionsToolStripMenuItem" text="Tabla" tooltip="Tabla" />
+    <control name="ContextWYSIWYGCut" text="Cortar" tooltip="Cortar" />
+    <control name="ContextWYSIWYGCopy" text="Copiar" tooltip="Copiar" />
+    <control name="ContextWYSIWYGPaste" text="Pegar" tooltip="Pegar" />
+    <control name="TablePropertiesToolStripMenuItem" text="Propiedades de la tabla" tooltip="Propiedades de la tabla" />
+    <control name="TablePropertiesToolStripMenuItem1" text="Propiedades de la tabla" tooltip="Propiedades de la tabla" />
+    <control name="RowPropertiesToolStripMenuItem" text="Propiedades de fila" tooltip="Propiedades de fila" />
+    <control name="CellPropertiesToolStripMenuItem" text="Propiedades celda de tabla" tooltip="Propiedades celda de tabla" />
+    <control name="InsertRowAfterToolStripMenuItem" text="Insertar fila después" tooltip="Insertar fila después" />
+    <control name="InsertRowBeforeToolStripMenuItem" text="Insertar fila antes" tooltip="Insertar fila antes" />
+    <control name="InsertColumnAfterToolStripMenuItem" text="Insertar columna después" tooltip="Insertar columna después" />
+    <control name="InsertColumnBeforeToolStripMenuItem" text="Insertar columna antes" tooltip="Insertar columna antes" />
+    <control name="ImagePropetiesToolStripMenuItem" text="Propiedades de imagen" tooltip="Propiedades de imagen" />
+    <control name="LinkPropertiesToolStripMenuItem" text="Propiedades de HyperLink" tooltip="Propiedades de HyperLink" />
+  </interfaceID>
+  <interfaceID name="frmImgProperties">
+      <control name="lblWidth" text="Width" />
+      <control name="lblHeight" text="Height" />
+      <control name="chkConstrainProportions" text="Constrain Proportions" />
+      <control name="cmdReset" text="Reset" />
+      <control name="lblBorder" text="Border" />
+      <control name="lblAlign" text="Align" />
+      <control name="lblSource" text="Source" />
+      <control name="lblAltText" text="Alt Text" />
+      <control name="cmdOK" text="Aplicar" />
+      <control name="cmdCancel" text="Anular" />
+  </interfaceID>
+  <interfaceID name="frmHyperlink">
+		<control name="tabHyperlink" text="Hyperlink"  />
+		<control name="tabAnchor" text="Anchor"  />  
+		<control name="lblProtocol" text="Protocolo"  />
+		<control name="lblDestination" text="Destino"  />
+		<control name="lblTarget" text="Objetivo"  />
+		<control name="Label1" text="Muestra"  />
+      <control name="cmdOK" text="Aplicar" />
+      <control name="cmdCancel" text="Anular" />
+  </interfaceID>
+  <interfaceID name="frmSymbol">
+      <control name="cmdOK" text="Aplicar"  />
+      <control name="cmdCancel" text="Anular" />
+  </interfaceID>  
+  <interfaceID name="ContextWYSIWYG">
+	  <control name="ContextWYSIWYGCut" text="Cortar" />
+	  <control name="ContextWYSIWYGCopy" text="Copiar" />
+	  <control name="ContextWYSIWYGPaste" text="Pegar" />
+	  <control name="TablePropertiesToolStripMenuItem" text="Tabla HTML" />
+	  <control name="InsertRowAfterToolStripMenuItem" text="Insertar fila después" />	  
+	  <control name="InsertRowBeforeToolStripMenuItem" text="Insertar fila antes" />	  
+	  <control name="DeleteRowToolStripMenuItem" text="Eliminar fila" />	
+	  <control name="InsertColumnAfterToolStripMenuItem" text="Insertar columna después" />	
+	  <control name="InsertColumnBeforeToolStripMenuItem" text="Insertar columna antes" />
+	  <control name="DeleteColumnToolStripMenuItem" text="Eliminar columna" />
+	  <control name="InsertCellAfterToolStripMenuItem" text="Insertar celda después" />	
+	  <control name="InsertCellBeforeToolStripMenuItem" text="Insertar celda antes"  />
+	  <control name="DeleteCellToolStripMenuItem" text="Eliminar celda" />
+	  <control name="ImagePropetiesToolStripMenuItem" text="Propiedades de imagen" />
+	  <control name="LinkPropertiesToolStripMenuItem" text="Propiedades de hipervínculo" />	
+  </interfaceID>
+</localizenbit>

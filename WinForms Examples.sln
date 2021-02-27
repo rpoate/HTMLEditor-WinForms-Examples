@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms Example 01 - Simple Dynamic Example", "WinForms Example 1 - Simple\WinForms Example 01 - Simple Dynamic Example.csproj", "{4DAB1A54-D258-426C-8597-8F0EE2B55625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms Example 02 - Databound HTML", "WinForms Example 2 - Databound\WinForms Example 02 - Databound HTML.csproj", "{29500795-172E-4BD0-83FE-536C4EAAFE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms Example 03 - Language Localisation", "WinForms Example 3 - Language Localisation\WinForms Example 03 - Language Localisation.csproj", "{EEAC9CEF-649D-4233-8AE9-207818918D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms Example 04 - Embedded Images", "Winforms Example 4 - Images from DB\Winforms Example 04 - Embedded Images.csproj", "{53B8C473-7B74-417B-820E-8542A4C54249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms Example 05 - Mail Merge", "Winforms Example 5 - Mail Merge\Winforms Example 05 - Mail Merge.csproj", "{3C900484-5165-49B1-A06F-D29A7C8C6233}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Winforms Example 07 - Custom Toolbar Buttons", "Winforms Example 7 - Custom Toolbar Buttons\Winforms Example 07 - Custom Toolbar Buttons.vbproj", "{3F744F81-5544-4A7F-8951-18A89A84C230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms Example 08 - Custom Menus and Toolbar", "Winforms Example 8 - Custom Menus and Toolbar\Winforms Example 08 - Custom Menus and Toolbar.csproj", "{D3505D14-3865-4695-A991-F78F5CCDED55}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Winforms Example 09 - Table Properties Dialog (VB)", "Winforms Example 9 - Table Properties Dialog\Winforms Example 09 - Table Properties Dialog (VB).vbproj", "{A45849AC-555D-4D30-A92A-28A737E63FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms Example 10 - Email Message and Relative Paths", "Winforms Example 11 - Email Message\Winforms Example 10 - Email Message and Relative Paths.csproj", "{FFBFDB22-D5C8-43B1-B767-B329F290612A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Winforms Example 08 - Custom Menus and Toolbar (VB)", "Winforms Example 08 - Custom Menus and Toolbar (VB)\Winforms Example 08 - Custom Menus and Toolbar (VB).vbproj", "{47131D62-F654-4E1E-8F23-63AFB971EC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms Example 09 - Table Properties Dialog", "Winforms Example 09 - Table Properties Dialog\Winforms Example 09 - Table Properties Dialog.csproj", "{A777E814-E562-4E53-93F7-411483646042}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Winforms Example 06 - SpellChecking (Win8 10 only)", "Winforms Example 06 - SpellChecking\Winforms Example 06 - SpellChecking (Win8 10 only).vbproj", "{B62C231A-8B73-453A-9AF6-F56A6B3A92DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DAB1A54-D258-426C-8597-8F0EE2B55625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAB1A54-D258-426C-8597-8F0EE2B55625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAB1A54-D258-426C-8597-8F0EE2B55625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAB1A54-D258-426C-8597-8F0EE2B55625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29500795-172E-4BD0-83FE-536C4EAAFE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29500795-172E-4BD0-83FE-536C4EAAFE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29500795-172E-4BD0-83FE-536C4EAAFE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29500795-172E-4BD0-83FE-536C4EAAFE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAC9CEF-649D-4233-8AE9-207818918D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAC9CEF-649D-4233-8AE9-207818918D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAC9CEF-649D-4233-8AE9-207818918D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAC9CEF-649D-4233-8AE9-207818918D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B8C473-7B74-417B-820E-8542A4C54249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B8C473-7B74-417B-820E-8542A4C54249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B8C473-7B74-417B-820E-8542A4C54249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B8C473-7B74-417B-820E-8542A4C54249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C900484-5165-49B1-A06F-D29A7C8C6233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C900484-5165-49B1-A06F-D29A7C8C6233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C900484-5165-49B1-A06F-D29A7C8C6233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C900484-5165-49B1-A06F-D29A7C8C6233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F744F81-5544-4A7F-8951-18A89A84C230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F744F81-5544-4A7F-8951-18A89A84C230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F744F81-5544-4A7F-8951-18A89A84C230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F744F81-5544-4A7F-8951-18A89A84C230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3505D14-3865-4695-A991-F78F5CCDED55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3505D14-3865-4695-A991-F78F5CCDED55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3505D14-3865-4695-A991-F78F5CCDED55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3505D14-3865-4695-A991-F78F5CCDED55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45849AC-555D-4D30-A92A-28A737E63FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45849AC-555D-4D30-A92A-28A737E63FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45849AC-555D-4D30-A92A-28A737E63FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45849AC-555D-4D30-A92A-28A737E63FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBFDB22-D5C8-43B1-B767-B329F290612A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBFDB22-D5C8-43B1-B767-B329F290612A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBFDB22-D5C8-43B1-B767-B329F290612A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBFDB22-D5C8-43B1-B767-B329F290612A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47131D62-F654-4E1E-8F23-63AFB971EC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47131D62-F654-4E1E-8F23-63AFB971EC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47131D62-F654-4E1E-8F23-63AFB971EC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47131D62-F654-4E1E-8F23-63AFB971EC33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A777E814-E562-4E53-93F7-411483646042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A777E814-E562-4E53-93F7-411483646042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A777E814-E562-4E53-93F7-411483646042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A777E814-E562-4E53-93F7-411483646042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62C231A-8B73-453A-9AF6-F56A6B3A92DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62C231A-8B73-453A-9AF6-F56A6B3A92DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62C231A-8B73-453A-9AF6-F56A6B3A92DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62C231A-8B73-453A-9AF6-F56A6B3A92DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C293B1D4-3A7F-48A4-A8B6-64F525B36710}
+	EndGlobalSection
+EndGlobal

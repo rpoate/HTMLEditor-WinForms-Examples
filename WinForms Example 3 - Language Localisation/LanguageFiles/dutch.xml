@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localizenbit>
+  <interfaceID name="Main">
+    <control name="tsbPrint" text="Afdruk" tooltip="Afdruk" />
+	<control name="tsbElementProperties" text="Eigenschappen van HTML element" tooltip="Eigenschappen van HTML element" />
+    <control name="tsbShowCode|ShowCode" text="De code weergeven" tooltip="De code weergeven" />
+    <control name="tsbShowCode|ShowEditor" text="De editor weergeven" tooltip="De editor weergeven" />	
+    <control name="tsbCut" text="Knippen" tooltip="Knippen" />
+    <control name="tsbCopy" text="Kopiëren" tooltip="Kopiëren" />
+    <control name="tsbPaste" text="Plakken" tooltip="Plakken" />
+    <control name="tsbUndo" text="Annuleren" tooltip="Annuleren" />
+    <control name="tsbRedo" text="Herstellen" tooltip="Herstellen" />
+    <control name="tsbBold" text="Vet" tooltip="Vet" />
+    <control name="tsbItalic" text="Cursief" tooltip="Cursief" />
+    <control name="tsbUnderline" text="Onderlijnen" tooltip="Onderlijnen" />
+    <control name="tsbStrikeout" text="Doorstrepen" tooltip="Doorstrepen" />
+    <control name="tsbSuperscript" text="Exposant" tooltip="Exposant" />
+    <control name="tsbSubscript" text="Index" tooltip="Index" />
+    <control name="tsbRemoveFormatting" text="Opmaak verwijderen" tooltip="Opmaak verwijderen" />
+    <control name="tsbAlignLeft" text="Links uitlijnen" tooltip="Links uitlijnen" />
+    <control name="tsbAlignCentre" text="Centreren" tooltip="Centreren" />
+    <control name="tsbAlignRight" text="Rechts uitlijnen" tooltip="Rechts uitlijnen" />
+    <control name="tsbAlignJustify" text="Uitvullen" tooltip="Uitvullen" />
+    <control name="tsbOrderedList" text="Gerangschikte lijst" tooltip="Gerangschikte lijst" />
+    <control name="tsbUnorderedList" text="Niet gerangschikte lijst" tooltip="Niet gerangschikte lijst" />
+    <control name="tsbOutdent" text="Deindent" tooltip="Deindent" />
+    <control name="tsbIndent" text="Indent" tooltip="Indent" />
+    <control name="tsbInsertLink" text="Hyperlink invoegen" tooltip="Hyperlink invoegen" />
+    <control name="tsbRemoveLink" text="De hyperlink verwijderen" tooltip="De hyperlink verwijderen" />
+	  <control name="tsbForeColor" text="Voorgrondkleur" tooltip="Voorgrondkleur" />
+	  <control name="tsbBackColor" text="Achtergrondkleur" tooltip="Achtergrond kleur" />	
+    <control name="InsertImageToolStripButton" text="Afbeelding invoegen" tooltip="Afbeelding invoegen" />
+    <control name="TableOptionsToolStripMenuItem" text="Tabel" tooltip="Tabel" />
+    <control name="EditTagHTMLToolStripMenuItem" text="De HTML-tag wijzigen" tooltip="De HTML-tag wijzigen" />
+    <control name="DeleteTagToolStripMenuItem" text="De HTML-tag verwijderen" tooltip="De HTML-tag verwijderen" />
+    <control name="ContextWYSIWYGCut" text="Knippen" tooltip="Knippen" />
+    <control name="ContextWYSIWYGCopy" text="Kopiëren" tooltip="Kopiëren" />
+    <control name="ContextWYSIWYGPaste" text="Plakken" tooltip="Plakken" />
+    <control name="TablePropertiesToolStripMenuItem" text="Tabel Eigenschappen" tooltip="Tabel Eigenschappen" />
+    <control name="TablePropertiesToolStripMenuItem1" text="Tabel Eigenschappen" tooltip="Tabel Eigenschappen" />
+    <control name="RowPropertiesToolStripMenuItem" text="Rij Eigenschappen" tooltip="Rij Eigenschappen" />
+    <control name="CellPropertiesToolStripMenuItem" text="Cel Eigenschappen" tooltip="Cel Eigenschappen" />
+    <control name="InsertRowAfterToolStripMenuItem" text="Rij onder invoegen" tooltip="Rij onder invoegen" />
+    <control name="InsertRowBeforeToolStripMenuItem" text="Rij boven invoegen" tooltip="Rij boven invoegen" />
+    <control name="InsertColumnAfterToolStripMenuItem" text="Kolom rechts invoegen" tooltip="Kolom rechts invoegen" />
+    <control name="InsertColumnBeforeToolStripMenuItem" text="Kolom links invoegen" tooltip="Kolom links invoegen" />
+    <control name="ImagePropetiesToolStripMenuItem" text="Afbeelding eigenschappen" tooltip="Afbeelding eigenschappen" />
+    <control name="LinkPropertiesToolStripMenuItem" text="Hyperlink eigenschappen" tooltip="Hyperlink eigenschappen" />
+	  <control name="tsbPrintPreview" text="Afdruk voorbeeld" tooltip="Afdruk voorbeeld" />
+  </interfaceID>
+  <interfaceID name="frmImgProperties">
+      <control name="lblWidth" text="Breedte" />
+      <control name="lblHeight" text="Hoogte" />
+      <control name="chkConstrainProportions" text="Verhoudingen beperken" />
+      <control name="cmdReset" text="Terugzetten" />
+      <control name="lblBorder" text="Rand" />
+      <control name="lblAlign" text="Uitlijnen" />
+      <control name="lblSource" text="Bron" />
+      <control name="lblAltText" text="Alternatieve tekst" />
+      <control name="cmdOK" text="Toepassen"  />
+      <control name="cmdCancel" text="Annuleren" />
+  </interfaceID>
+  <interfaceID name="frmHyperlink">
+		<control name="tabHyperlink" text="Hyperlink"  />
+		<control name="tabAnchor" text="Anchor"  />  
+		<control name="lblProtocol" text="Protocol"  />
+		<control name="lblDestination" text="Bestemming"  />
+		<control name="lblTarget" text="Doelwit"  />
+		<control name="Label1" text="Voorbeeld"  />
+      <control name="cmdOK" text="Toepassen"  />
+      <control name="cmdCancel" text="Annuleren" />
+  </interfaceID>
+  <interfaceID name="frmSymbol">
+      <control name="cmdOK" text="Toepassen"  />
+      <control name="cmdCancel" text="Annuleren" />
+  </interfaceID>
+  <interfaceID name="ContextWYSIWYG">
+    <control name="ContextWYSIWYGCut" text="Knippen" tooltip="Knippen" />
+    <control name="ContextWYSIWYGCopy" text="Kopiëren" tooltip="Kopiëren" />
+    <control name="ContextWYSIWYGPaste" text="Plakken" tooltip="Plakken" />
+    <control name="TablePropertiesToolStripMenuItem" text="Tabel eigenschappen" tooltip="Tabel eigenschappen" />
+    <control name="TablePropertiesToolStripMenuItem1" text="Tabel eigenschappen" tooltip="Tabel eigenschappen" />
+    <control name="RowPropertiesToolStripMenuItem" text="Rij eigenschappen" tooltip="Rij eigenschappen" />
+    <control name="CellPropertiesToolStripMenuItem" text="Cel eigenschappen" tooltip="Cel eigenschappen" />
+    <control name="InsertRowAfterToolStripMenuItem" text="Rij onder invoegen" tooltip="Rij onder invoegen" />
+    <control name="InsertRowBeforeToolStripMenuItem" text="Rij boven invoegen" tooltip="Rij boven invoegen" />
+    <control name="InsertColumnAfterToolStripMenuItem" text="Kolom rechts invoegen" tooltip="Kolom rechts invoegen" />
+    <control name="InsertColumnBeforeToolStripMenuItem" text="Kolom links invoegen" tooltip="Kolom links invoegen" />
+	<control name="DeleteColumnToolStripMenuItem" text="Kolom verwijderen" tooltip="Kolom verwijderen" />
+    <control name="ImagePropetiesToolStripMenuItem" text="Afbeelding eigenschappen" tooltip="Afbeelding eigenschappen" />
+    <control name="LinkPropertiesToolStripMenuItem" text="Hyperlink eigenschappen" tooltip="Hyperlink eigenschappen" />
+	<control name="InsertCellAfterToolStripMenuItem" text="Cel rechts invoegen" tooltip="Cel rechts invoegen" />
+    <control name="InsertCellBeforeToolStripMenuItem" text="Cel links invoegen" tooltip="Cel links invoegen" />
+	<control name="DeleteRowToolStripMenuItem" text="Rij verwijderen" tooltip="Rij verwijderen" />
+	<control name="DeleteCellToolStripMenuItem" text="Cel verwijderen" tooltip="Cel verwijderen" />
+  </interfaceID>
+</localizenbit>
