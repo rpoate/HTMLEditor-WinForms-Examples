@@ -36,7 +36,7 @@ namespace Winforms_Example_8___Custom_Menus_and_Toolbar
 
         private void SigClick(object sender, EventArgs e)
         {
-            oEdit.InsertHTMLELement("p").InnerHtml = "<b><i>Isaac Newtown<br />p. 555-098723</i></b>";
+            oEdit.InsertHTMLElement("p").InnerHtml = "<b><i>Isaac Newtown<br />p. 555-098723</i></b>";
         }
 
         private void Form1_Load(object sender, EventArgs e)

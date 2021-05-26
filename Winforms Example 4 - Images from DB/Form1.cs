@@ -55,7 +55,7 @@ namespace Winforms_Example_4___Images_from_DB
                         return;
                     }
 
-                    htmlEditControl1.InsertHTMLELement("img").SetAttribute("src", "data:image/" + new FileInfo(filePath).Extension.Remove(0,1) + ";base64," + Base64fromImage(filePath));
+                    htmlEditControl1.InsertHTMLElement("img").SetAttribute("src", "data:image/" + new FileInfo(filePath).Extension.Remove(0,1) + ";base64," + Base64fromImage(filePath));
                 }
             }
         }
@@ -67,12 +67,12 @@ namespace Winforms_Example_4___Images_from_DB
 
         private void CarImage1Click(object sender, EventArgs e)
         {
-            htmlEditControl1.InsertHTMLELement("img").SetAttribute("src", "data:image/" + GetMediaType("images\\car1.jpg") + ";base64," + Base64fromImage("images\\car1.jpg"));
+            htmlEditControl1.InsertHTMLElement("img").SetAttribute("src", "data:image/" + GetMediaType("images\\car1.jpg") + ";base64," + Base64fromImage("images\\car1.jpg"));
         }
 
         private void CarImage2Click(object sender, EventArgs e)
         {
-            htmlEditControl1.InsertHTMLELement("img").SetAttribute("src", "data:image/" + GetMediaType("images\\car1.jpg") + ";base64," + Base64fromImage("images\\car2.jpg"));
+            htmlEditControl1.InsertHTMLElement("img").SetAttribute("src", "data:image/" + GetMediaType("images\\car1.jpg") + ";base64," + Base64fromImage("images\\car2.jpg"));
         }
 
         private string Base64fromImage(string ImagePath)
@@ -124,7 +124,7 @@ namespace Winforms_Example_4___Images_from_DB
                             if (".jpg.gif.png.jpeg".Contains(oFile.Extension))
                             {
                                 e.Cancel = true;
-                                htmlEditControl1.InsertHTMLELement("img").SetAttribute("src", "data:image/jpeg;base64," + Base64fromImage(oURI.LocalPath));
+                                htmlEditControl1.InsertHTMLElement("img").SetAttribute("src", "data:image/jpeg;base64," + Base64fromImage(oURI.LocalPath));
                             }
                         }
                     }

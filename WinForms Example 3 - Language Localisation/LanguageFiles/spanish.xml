@@ -2,6 +2,7 @@
 <localizenbit>
   <interfaceID name="Main">
     <control name="tsbPrint" text="Print" tooltip="Imprimir" />
+	<control name="tsbPrintPreview" text="Print Preview" tooltip="Print Preview" />	
 	<control name="tsbElementProperties" text="HTML Element Properties" tooltip="Propiedades del elemento HTML" />
     <control name="tsbShowCode|ShowCode" text="Mostrar código" tooltip="Mostrar código" />
     <control name="tsbShowCode|ShowEditor" text="Mostrar editor" tooltip="Mostrar editor" />	
