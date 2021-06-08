@@ -48,6 +48,7 @@
             this.htmlEditControl1 = new Zoople.HTMLEditControl();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -166,6 +167,7 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -201,20 +203,32 @@
             // 
             // htmlEditControl1
             // 
+            this.htmlEditControl1.AcceptsReturn = true;
+            this.htmlEditControl1.AllowDragInternal = true;
             this.htmlEditControl1.AutoSize = true;
             this.htmlEditControl1.BaseURL = null;
+            this.htmlEditControl1.CleanMSWordHTMLOnPaste = true;
+            this.htmlEditControl1.CodeEditor.Enabled = true;
+            this.htmlEditControl1.CodeEditor.Locked = false;
+            this.htmlEditControl1.CodeEditor.WordWrap = false;
             this.htmlEditControl1.CSSText = null;
             this.htmlEditControl1.DataBindings.Add(new System.Windows.Forms.Binding("DocumentHTML", this.bindingSource1, "HTML", true));
             this.htmlEditControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.htmlEditControl1.DocumentHTML = "";
+            this.htmlEditControl1.EditingDisabled = false;
+            this.htmlEditControl1.EnableInlineSpelling = false;
             this.htmlEditControl1.FontsList = null;
             this.htmlEditControl1.HiddenButtons = null;
             this.htmlEditControl1.ImageStorageLocation = null;
             this.htmlEditControl1.InCodeView = false;
             this.htmlEditControl1.LanguageFile = null;
+            this.htmlEditControl1.LicenceActivationKey = null;
+            this.htmlEditControl1.LicenceKey = null;
+            this.htmlEditControl1.LicenceKeyInlineSpelling = null;
             this.htmlEditControl1.Location = new System.Drawing.Point(0, 0);
             this.htmlEditControl1.Name = "htmlEditControl1";
             this.htmlEditControl1.Size = new System.Drawing.Size(649, 450);
+            this.htmlEditControl1.SpellingAutoCorrectionList = ((System.Collections.Hashtable)(resources.GetObject("htmlEditControl1.SpellingAutoCorrectionList")));
             this.htmlEditControl1.TabIndex = 0;
             this.htmlEditControl1.ToolstripImageScalingSize = new System.Drawing.Size(16, 16);
             this.htmlEditControl1.UseParagraphAsDefault = true;
@@ -234,6 +248,7 @@
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);
