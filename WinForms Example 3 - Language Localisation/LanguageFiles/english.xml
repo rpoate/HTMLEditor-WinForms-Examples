@@ -58,6 +58,7 @@
       <control name="lblAltText" text="Alt Text" />
       <control name="cmdOK" text="Apply"  />
       <control name="cmdCancel" text="Cancel" />
+	  <control name="cmdBrowse" text="Browse" />
   </interfaceID>
   <interfaceID name="frmHyperlink">
 		<control name="tabHyperlink" text="Hyperlink"  />

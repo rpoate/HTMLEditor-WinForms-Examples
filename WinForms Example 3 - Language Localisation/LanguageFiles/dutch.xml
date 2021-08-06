@@ -59,6 +59,7 @@
       <control name="lblAltText" text="Alternatieve tekst" />
       <control name="cmdOK" text="Toepassen"  />
       <control name="cmdCancel" text="Annuleren" />
+	  <control name="cmdBrowse" text="Bladeren" />
   </interfaceID>
   <interfaceID name="frmHyperlink">
 		<control name="tabHyperlink" text="Hyperlink"  />

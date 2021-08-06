@@ -217,6 +217,7 @@
             this.htmlEditControl1.DocumentHTML = "";
             this.htmlEditControl1.EditingDisabled = false;
             this.htmlEditControl1.EnableInlineSpelling = false;
+            this.htmlEditControl1.FontSizesList = "8pt;10pt;12pt;16pt;22pt";
             this.htmlEditControl1.FontsList = null;
             this.htmlEditControl1.HiddenButtons = null;
             this.htmlEditControl1.ImageStorageLocation = null;
