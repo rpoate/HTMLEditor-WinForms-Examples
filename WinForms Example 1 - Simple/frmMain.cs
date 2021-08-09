@@ -22,8 +22,8 @@ namespace WinForms_Examples
                 LicenceKey = "YourLicenseKey",
                 LicenceKeyInlineSpelling = "InlineSpellingLicenseKey",
                 EnableInlineSpelling = false,
-                CleanMSWordHTMLOnPaste = false,
-                FontSizesList = "8pt;10pt;12pt;16pt;22pt"
+                CleanMSWordHTMLOnPaste = true,
+                FontSizesList = "8pt;10pt;12pt;16pt;22pt;"
             };
 
             Controls.Add(oEdit);
