@@ -23,7 +23,8 @@ namespace WinForms_Examples
                 LicenceKeyInlineSpelling = "InlineSpellingLicenseKey",
                 EnableInlineSpelling = false,
                 CleanMSWordHTMLOnPaste = true,
-                FontSizesList = "8pt;10pt;12pt;16pt;22pt;"
+                FontSizesList = "8pt;10pt;12pt;16pt;22pt;",
+                HideDOMToolbar = true
             };
 
             Controls.Add(oEdit);
