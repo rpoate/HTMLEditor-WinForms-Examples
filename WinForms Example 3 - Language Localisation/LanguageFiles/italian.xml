@@ -92,4 +92,11 @@
 	<control name="DeleteColumnToolStripMenuItem" text="Rimuovi colonna" tooltip="Rimuovi colonna" />
 	<control name="DeleteCellToolStripMenuItem" text="Rimuovi cellula" tooltip="Rimuovi cellula" />
   </interfaceID>
+  <interfaceID name="frmCSSStyle">
+		<control name="Label1" text="Esempio"  />
+		<control name="TabPage1" text="Nuovi stili"  />		
+		<control name="TabPage2" text="Stili esistenti"  />
+		<control name="cmdOK" text="Applicare"  />
+		<control name="cmdCancel" text="Annulla" />
+  </interfaceID>
 </localizenbit>

@@ -88,4 +88,11 @@
 	  <control name="ImagePropetiesToolStripMenuItem" text="Propiedades de imagen" />
 	  <control name="LinkPropertiesToolStripMenuItem" text="Propiedades de hipervínculo" />	
   </interfaceID>
+   <interfaceID name="frmCSSStyle">
+		<control name="Label1" text="Ejemplo"  />
+		<control name="TabPage1" text="Nuevos estilos"  />		
+		<control name="TabPage2" text="Estilos existentes"  />
+		<control name="cmdOK" text="Aplicar"  />
+		<control name="cmdCancel" text="Anular" />
+  </interfaceID>
 </localizenbit>

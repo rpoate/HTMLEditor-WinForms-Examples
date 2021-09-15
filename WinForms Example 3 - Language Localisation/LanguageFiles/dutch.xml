@@ -95,4 +95,11 @@
 	<control name="DeleteRowToolStripMenuItem" text="Rij verwijderen" tooltip="Rij verwijderen" />
 	<control name="DeleteCellToolStripMenuItem" text="Cel verwijderen" tooltip="Cel verwijderen" />
   </interfaceID>
+   <interfaceID name="frmCSSStyle">
+		<control name="Label1" text="Voorbeeld"  />
+		<control name="TabPage1" text="Nieuwe CSS-stijlen"  />		
+		<control name="TabPage2" text="Bestaande CSS-stijlen"  />
+		<control name="cmdOK" text="Toepassen"  />
+		<control name="cmdCancel" text="Annuleren" />
+  </interfaceID>
 </localizenbit>

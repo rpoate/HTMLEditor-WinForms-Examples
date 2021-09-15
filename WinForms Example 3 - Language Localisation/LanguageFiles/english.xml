@@ -45,7 +45,6 @@
     <control name="ImagePropetiesToolStripMenuItem" text="Image Properties" tooltip="Image Properties" />
     <control name="LinkPropertiesToolStripMenuItem" text="Link Properties" tooltip="Link Properties" />
 	<control name="tsbPrintPreview" text="Print Preview" tooltip="Print Preview" />
-	
   </interfaceID>
   <interfaceID name="frmImgProperties">
       <control name="lblWidth" text="Width" />
@@ -90,5 +89,12 @@
   <interfaceID name="frmSymbol">
       <control name="cmdOK" text="Apply"  />
       <control name="cmdCancel" text="Cancel" />
+  </interfaceID>
+  <interfaceID name="frmCSSStyle">
+		<control name="Label1" text="Example"  />
+		<control name="TabPage1" text="New Styles"  />		
+		<control name="TabPage2" text="Existing Styles"  />
+		<control name="cmdOK" text="Apply"  />
+		<control name="cmdCancel" text="Cancel" />
   </interfaceID>
 </localizenbit>

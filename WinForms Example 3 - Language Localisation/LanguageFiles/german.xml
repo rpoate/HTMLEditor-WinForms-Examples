@@ -90,4 +90,11 @@
 	  <control name="LinkPropertiesToolStripMenuItem" text="Hyperlink-Eigenschaften" />	
 	  <control name="SpellingSuggestionsToolStripMenuItem" text="Rechtschreibvorschläge" />	
   </interfaceID>
+  <interfaceID name="frmCSSStyle">
+		<control name="Label1" text="Beispiel"  />
+		<control name="TabPage1" text="Neue Stile"  />		
+		<control name="TabPage2" text="Vorhandene Stile"  />
+		<control name="cmdOK" text="Anwenden"  />
+		<control name="cmdCancel" text="Stornieren" />
+  </interfaceID>
 </localizenbit>

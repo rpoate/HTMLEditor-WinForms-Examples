@@ -96,4 +96,11 @@
 	<control name="DeleteRowToolStripMenuItem" text="Enlever la Rangée" tooltip="Enlever la Rangée" />
 	<control name="DeleteCellToolStripMenuItem" text="Enlever la Cellule" tooltip="Enlever la Cellule" />
   </interfaceID>
+   <interfaceID name="frmCSSStyle">
+		<control name="Label1" text="Exemple"  />
+		<control name="TabPage1" text="Nouveaux styles CSS"  />		
+		<control name="TabPage2" text="Styles CSS existants"  />
+		<control name="cmdOK" text="Appliquer"  />
+		<control name="cmdCancel" text="Annuler" />
+  </interfaceID>
 </localizenbit>

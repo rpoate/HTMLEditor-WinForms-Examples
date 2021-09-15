@@ -24,7 +24,7 @@ namespace WinForms_Examples
                 EnableInlineSpelling = false,
                 CleanMSWordHTMLOnPaste = true,
                 FontSizesList = "8pt;10pt;12pt;16pt;22pt;",
-                HideDOMToolbar = true
+                HideDOMToolbar = false
             };
 
             Controls.Add(oEdit);
