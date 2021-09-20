@@ -102,11 +102,13 @@
             this.htmlEditControl1.AcceptsReturn = true;
             this.htmlEditControl1.AllowDragInternal = true;
             this.htmlEditControl1.AutoSize = true;
+            this.htmlEditControl1.AvailableInlineStyles = ((System.Collections.Generic.List<string>)(resources.GetObject("htmlEditControl1.AvailableInlineStyles")));
             this.htmlEditControl1.BackColor = System.Drawing.SystemColors.Window;
             this.htmlEditControl1.BaseURL = null;
             this.htmlEditControl1.CleanMSWordHTMLOnPaste = true;
             this.htmlEditControl1.CodeEditor.Enabled = true;
             this.htmlEditControl1.CodeEditor.Locked = false;
+            this.htmlEditControl1.CodeEditor.TabWidth = 720;
             this.htmlEditControl1.CodeEditor.WordWrap = false;
             this.htmlEditControl1.CSSText = null;
             this.htmlEditControl1.DefaultSpellingLanguage = "en-US";
@@ -114,11 +116,13 @@
             this.htmlEditControl1.DocumentHTML = null;
             this.htmlEditControl1.EditingDisabled = false;
             this.htmlEditControl1.EnableInlineSpelling = true;
+            this.htmlEditControl1.FontSizesList = null;
             this.htmlEditControl1.FontsList = null;
             this.htmlEditControl1.HiddenButtons = null;
             this.htmlEditControl1.ImageStorageLocation = null;
             this.htmlEditControl1.InCodeView = false;
             this.htmlEditControl1.LanguageFile = null;
+            this.htmlEditControl1.LicenceActivationKey = null;
             this.htmlEditControl1.LicenceKey = null;
             this.htmlEditControl1.LicenceKeyInlineSpelling = null;
             this.htmlEditControl1.Location = new System.Drawing.Point(0, 0);
@@ -134,10 +138,12 @@
             this.htmlEditControl2.AcceptsReturn = true;
             this.htmlEditControl2.AllowDragInternal = true;
             this.htmlEditControl2.AutoSize = true;
+            this.htmlEditControl2.AvailableInlineStyles = ((System.Collections.Generic.List<string>)(resources.GetObject("htmlEditControl2.AvailableInlineStyles")));
             this.htmlEditControl2.BaseURL = null;
             this.htmlEditControl2.CleanMSWordHTMLOnPaste = true;
             this.htmlEditControl2.CodeEditor.Enabled = true;
             this.htmlEditControl2.CodeEditor.Locked = false;
+            this.htmlEditControl2.CodeEditor.TabWidth = 720;
             this.htmlEditControl2.CodeEditor.WordWrap = false;
             this.htmlEditControl2.CSSText = null;
             this.htmlEditControl2.DefaultSpellingLanguage = "en-US";
@@ -146,6 +152,7 @@
             this.htmlEditControl2.EditingDisabled = true;
             this.htmlEditControl2.Enabled = false;
             this.htmlEditControl2.EnableInlineSpelling = false;
+            this.htmlEditControl2.FontSizesList = null;
             this.htmlEditControl2.FontsList = null;
             this.htmlEditControl2.HiddenButtons = null;
             this.htmlEditControl2.HideDOMToolbar = true;
@@ -153,6 +160,7 @@
             this.htmlEditControl2.ImageStorageLocation = null;
             this.htmlEditControl2.InCodeView = false;
             this.htmlEditControl2.LanguageFile = null;
+            this.htmlEditControl2.LicenceActivationKey = null;
             this.htmlEditControl2.LicenceKey = null;
             this.htmlEditControl2.LicenceKeyInlineSpelling = null;
             this.htmlEditControl2.Location = new System.Drawing.Point(0, 0);
@@ -176,6 +184,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);

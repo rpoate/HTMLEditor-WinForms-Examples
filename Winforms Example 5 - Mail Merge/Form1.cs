@@ -67,5 +67,10 @@ namespace Winforms_Example_4___Mail_Merge
                 this.htmlEditControl1.InsertAtCursor("<a data-merge=\"" + ((ToolStripComboBox)this.htmlEditControl1.ToolStripItems["FieldCombo"]).SelectedItem.ToString() +
                     "\" href=\"#\">" + ((ToolStripComboBox)this.htmlEditControl1.ToolStripItems["FieldCombo"]).SelectedItem.ToString() + "</a>", Zoople.HTMLEditControl.ed_InsertType.ed_InsertReplaceSelection);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
