@@ -103,4 +103,21 @@
 		<control name="cmdOK" text="Appliquer"  />
 		<control name="cmdCancel" text="Annuler" />
   </interfaceID>
+  <interfaceID name="frmTextSearch">
+		<control name="lblFindWhat" text="Trouve:"  />		
+		<control name="chkMatchWholeWord" text="Correspond à un mot entier"  />
+		<control name="chkMatchCase" text="Cas de correspondance"  />
+		<control name="cmdFindNext" text="Rechercher suivant"  />
+		<control name="cmdCancel" text="Annuler" />
+  </interfaceID>
+  <interfaceID name="frmSpellingDialog">
+		<control name="cmdIgnore" text="Ignorer"  />		
+		<control name="cmdIgnoreAll" text="Ignorer tout"  />
+		<control name="cmdAddToDictionary" text="Ajouter au dictionnaire"  />
+		<control name="cmdChange" text="Changer"  />
+		<control name="cmdChangeAll" text="Change tout"  />
+		<control name="cmdUndoEdit" text="Annuler Modifier" />
+		<control name="Label1" text="Pas dans le dictionnaire"  />
+		<control name="Label2" text="Suggestions d'amélioration" />
+  </interfaceID>
 </localizenbit>

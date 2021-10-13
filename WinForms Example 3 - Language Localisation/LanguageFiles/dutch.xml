@@ -102,4 +102,21 @@
 		<control name="cmdOK" text="Toepassen"  />
 		<control name="cmdCancel" text="Annuleren" />
   </interfaceID>
+  <interfaceID name="frmTextSearch">
+		<control name="lblFindWhat" text="Vind:"  />		
+		<control name="chkMatchWholeWord" text="Overeenkomen met hele woord"  />
+		<control name="chkMatchCase" text="Match Case"  />
+		<control name="cmdFindNext" text="Volgende zoeken"  />
+		<control name="cmdCancel" text="Annuleren" />
+  </interfaceID>
+  <interfaceID name="frmSpellingDialog">
+		<control name="cmdIgnore" text="Negeren"  />		
+		<control name="cmdIgnoreAll" text="Negeer alles"  />
+		<control name="cmdAddToDictionary" text="Toevoegen aan woordenboek"  />
+		<control name="cmdChange" text="Wijziging"  />
+		<control name="cmdChangeAll" text="Verander alles"  />
+		<control name="cmdUndoEdit" text="Ongedaan maken" />
+		<control name="Label1" text="Niet in woordenboek"  />
+		<control name="Label2" text="Suggesties" />
+  </interfaceID>
 </localizenbit>
