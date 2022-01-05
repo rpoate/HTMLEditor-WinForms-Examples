@@ -61,6 +61,7 @@
       <control name="cmdOK" text="Appliquer"  />
       <control name="cmdCancel" text="Annuler" />
 	  <control name="cmdBrowse" text="Feuilleter" />
+	  <control name="chkAspect" text="Maintenir le rapport hauteur/largeur" />
   </interfaceID>
   <interfaceID name="frmHyperlink">
   		<control name="tabHyperlink" text="Hyperlink"  />

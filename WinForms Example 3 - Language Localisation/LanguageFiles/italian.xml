@@ -60,6 +60,7 @@
       <control name="cmdOK" text="Applicare"  />
       <control name="cmdCancel" text="Annulla" />
 	  <control name="cmdBrowse" text="Navigare" />
+	  <control name="chkAspect" text="Mantenere le proporzioni" />
   </interfaceID>
     <interfaceID name="frmHyperlink">
 		<control name="tabHyperlink" text="Hyperlink"  />

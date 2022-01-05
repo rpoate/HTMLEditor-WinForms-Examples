@@ -57,6 +57,7 @@
       <control name="cmdOK" text="Anwenden"  />
       <control name="cmdCancel" text="Stornieren" />
 	  <control name="cmdBrowse" text="Durchsuche" />
+	  <control name="chkAspect" text="Seitenverhältnis beibehalten" />
   </interfaceID>
   <interfaceID name="frmHyperlink">
   		<control name="tabHyperlink" text="Hyperlink"  />

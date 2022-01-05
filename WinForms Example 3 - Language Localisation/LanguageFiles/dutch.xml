@@ -60,6 +60,7 @@
       <control name="cmdOK" text="Toepassen"  />
       <control name="cmdCancel" text="Annuleren" />
 	  <control name="cmdBrowse" text="Bladeren" />
+	  <control name="chkAspect" text="Beeldverhouding behouden" />
   </interfaceID>
   <interfaceID name="frmHyperlink">
 		<control name="tabHyperlink" text="Hyperlink"  />

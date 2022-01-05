@@ -56,6 +56,7 @@
       <control name="cmdOK" text="Aplicar" />
       <control name="cmdCancel" text="Anular" />
 	  <control name="cmdBrowse" text="Navegar" />
+	  <control name="chkAspect" text="Mantener la relación de aspecto" />
   </interfaceID>
   <interfaceID name="frmHyperlink">
 		<control name="tabHyperlink" text="Hyperlink"  />
