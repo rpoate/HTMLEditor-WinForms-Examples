@@ -31,9 +31,8 @@ namespace Winforms_Example_09___Table_Properties_Dialog_CS
             btnCellProperties.Enabled = false;
             btnCellProperties.Click += btnCellProperties_Click;
 
-            this.htmlEditControl1.CSSText = "table {border: none} td {border:none} table {border-collapse: separate !important; } body {font-family: Arial}";
+            this.htmlEditControl1.CSSText = "table {border-collapse: separate !important; } body {font-family: Arial}";
             this.htmlEditControl1.DocumentHTML = "<p>In this example the editor has had two custom buttons added to it's menu bar; a table properties and individual cell properties button. They are only enabled if the user clicks into a table cell. </p><table style='width: 100%;'><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table><p></p>";
-            this.htmlEditControl1.MoveCursorToElement(this.htmlEditControl1.GetItemsByTagName("p")[0], Zoople.HTMLEditControl.ELEM_ADJ.ELEM_ADJ_AfterBegin);
 
         }
 

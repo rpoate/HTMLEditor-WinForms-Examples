@@ -19,9 +19,8 @@
         btnCellProperties.Enabled = False
         AddHandler btnCellProperties.Click, AddressOf btnCellProperties_Click
 
-        Me.HtmlEditControl1.CSSText = "table {border: none} td {border:none} table {border-collapse: separate !important; } body {font-family: Arial}"
+        Me.HtmlEditControl1.CSSText = "table {border-collapse: separate !important; } body {font-family: Arial}"
         Me.HtmlEditControl1.DocumentHTML = "<p>In this example the editor has had two custom buttons added to it's menu bar; a table properties and individual cell properties button. They are only enabled if the user clicks into a table cell. </p><table style='width: 100%;'><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table><p></p>"
-        Me.HtmlEditControl1.MoveCursorToElement(Me.HtmlEditControl1.GetItemsByTagName("p")(0), Zoople.HTMLEditControl.ELEM_ADJ.ELEM_ADJ_AfterBegin)
 
     End Sub
 
