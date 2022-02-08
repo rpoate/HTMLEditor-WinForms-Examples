@@ -44,7 +44,7 @@
     <control name="ImagePropetiesToolStripMenuItem" text="Propiedades de imagen" tooltip="Propiedades de imagen" />
     <control name="LinkPropertiesToolStripMenuItem" text="Propiedades de HyperLink" tooltip="Propiedades de HyperLink" />
   </interfaceID>
-  <interfaceID name="frmImgProperties">
+  <interfaceID name="frmImgProperties" text="Propiedades de la imagen">
       <control name="lblWidth" text="Width" />
       <control name="lblHeight" text="Height" />
       <control name="chkConstrainProportions" text="Constrain Proportions" />
@@ -58,17 +58,18 @@
 	  <control name="cmdBrowse" text="Navegar" />
 	  <control name="chkAspect" text="Mantener la relación de aspecto" />
   </interfaceID>
-  <interfaceID name="frmHyperlink">
+  <interfaceID name="frmHyperlink" text="Hyperlink">
 		<control name="tabHyperlink" text="Hyperlink"  />
 		<control name="tabAnchor" text="Anchor"  />  
 		<control name="lblProtocol" text="Protocolo"  />
 		<control name="lblDestination" text="Destino"  />
 		<control name="lblTarget" text="Objetivo"  />
 		<control name="Label1" text="Muestra"  />
+		<control name="lblSelectAnchor" text="seleccionar ancla"  />
       <control name="cmdOK" text="Aplicar" />
       <control name="cmdCancel" text="Anular" />
   </interfaceID>
-  <interfaceID name="frmSymbol">
+  <interfaceID name="frmSymbol" text="Insertar símbolo">
       <control name="cmdOK" text="Aplicar"  />
       <control name="cmdCancel" text="Anular" />
   </interfaceID>  
@@ -89,21 +90,21 @@
 	  <control name="ImagePropetiesToolStripMenuItem" text="Propiedades de imagen" />
 	  <control name="LinkPropertiesToolStripMenuItem" text="Propiedades de hipervínculo" />	
   </interfaceID>
-   <interfaceID name="frmCSSStyle">
+   <interfaceID name="frmCSSStyle" text="CSS Estilos">
 		<control name="Label1" text="Ejemplo"  />
 		<control name="TabPage1" text="Nuevos estilos"  />		
 		<control name="TabPage2" text="Estilos existentes"  />
 		<control name="cmdOK" text="Aplicar"  />
 		<control name="cmdCancel" text="Anular" />
   </interfaceID>
-   <interfaceID name="frmTextSearch">
+   <interfaceID name="frmTextSearch" text="Buscar en texto">
 		<control name="lblFindWhat" text="Encontrar:"  />		
 		<control name="chkMatchWholeWord" text="Compare la palabra completa"  />
 		<control name="chkMatchCase" text="Caso de coincidencia"  />
 		<control name="cmdFindNext" text="Buscar siguiente"  />
 		<control name="cmdCancel" text="Anular" />
   </interfaceID>
-  <interfaceID name="frmSpellingDialog">
+  <interfaceID name="frmSpellingDialog" text="Ortografía">
 		<control name="cmdIgnore" text="Ignorar"  />		
 		<control name="cmdIgnoreAll" text="Ignora todo"  />
 		<control name="cmdAddToDictionary" text="Agregar al diccionario"  />

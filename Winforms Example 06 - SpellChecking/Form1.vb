@@ -19,14 +19,10 @@ Public Class Form1
         Me.HtmlEditControl1.EnableInlineSpelling = True
         Me.HtmlEditControl1.LicenceKeyInlineSpelling = ""
 
+        ' add some custom autotext replacements
         Me.HtmlEditControl1.SpellingAutoCorrectionList.Add("cw", "&copy;")
         Me.HtmlEditControl1.SpellingAutoCorrectionList.Add("td", "trademark")
         Me.HtmlEditControl1.SpellingAutoCorrectionList.Add("pp", "<span style='color:red'>pianissimo</span>")
-
-        Me.HtmlEditControl1.SpellCheckDocument(False)
-
-        AddHandler Me.HtmlEditControl1.SpellCheckComplete, AddressOf HtmlEditControl1_SpellCheckComplete
-
 
     End Sub
 
@@ -38,8 +34,7 @@ Public Class Form1
         Me.HtmlEditControl1.SpellCheckDocument(False)
     End Sub
 
-    Private Sub HtmlEditControl1_SpellCheckComplete(sender As Object, e As EventArgs)
-        MsgBox("Spell checking completed")
+    Private Sub HtmlEditControl1_DocumentLoadComplete(sender As Object, e As EventArgs) Handles HtmlEditControl1.DocumentLoadComplete
+        Me.HtmlEditControl1.SpellCheckDocument(False)
     End Sub
-
 End Class

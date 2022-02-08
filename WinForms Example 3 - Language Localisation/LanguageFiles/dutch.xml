@@ -48,7 +48,7 @@
     <control name="LinkPropertiesToolStripMenuItem" text="Hyperlink eigenschappen" tooltip="Hyperlink eigenschappen" />
 	  <control name="tsbPrintPreview" text="Afdruk voorbeeld" tooltip="Afdruk voorbeeld" />
   </interfaceID>
-  <interfaceID name="frmImgProperties">
+  <interfaceID name="frmImgProperties" text="Eigenschappen van afbeelding">
       <control name="lblWidth" text="Breedte" />
       <control name="lblHeight" text="Hoogte" />
       <control name="chkConstrainProportions" text="Verhoudingen beperken" />
@@ -62,17 +62,18 @@
 	  <control name="cmdBrowse" text="Bladeren" />
 	  <control name="chkAspect" text="Beeldverhouding behouden" />
   </interfaceID>
-  <interfaceID name="frmHyperlink">
+  <interfaceID name="frmHyperlink" text="Hyperlink">
 		<control name="tabHyperlink" text="Hyperlink"  />
 		<control name="tabAnchor" text="Anchor"  />  
 		<control name="lblProtocol" text="Protocol"  />
 		<control name="lblDestination" text="Bestemming"  />
 		<control name="lblTarget" text="Doelwit"  />
 		<control name="Label1" text="Voorbeeld"  />
+		<control name="lblSelectAnchor" text="selecteer anker"  />
       <control name="cmdOK" text="Toepassen"  />
       <control name="cmdCancel" text="Annuleren" />
   </interfaceID>
-  <interfaceID name="frmSymbol">
+  <interfaceID name="frmSymbol" text="Symbool">
       <control name="cmdOK" text="Toepassen"  />
       <control name="cmdCancel" text="Annuleren" />
   </interfaceID>
@@ -96,21 +97,21 @@
 	<control name="DeleteRowToolStripMenuItem" text="Rij verwijderen" tooltip="Rij verwijderen" />
 	<control name="DeleteCellToolStripMenuItem" text="Cel verwijderen" tooltip="Cel verwijderen" />
   </interfaceID>
-   <interfaceID name="frmCSSStyle">
+   <interfaceID name="frmCSSStyle" text="CSS Stijlen">
 		<control name="Label1" text="Voorbeeld"  />
 		<control name="TabPage1" text="Nieuwe CSS-stijlen"  />		
 		<control name="TabPage2" text="Bestaande CSS-stijlen"  />
 		<control name="cmdOK" text="Toepassen"  />
 		<control name="cmdCancel" text="Annuleren" />
   </interfaceID>
-  <interfaceID name="frmTextSearch">
+  <interfaceID name="frmTextSearch" text="Zoek tekst">
 		<control name="lblFindWhat" text="Vind:"  />		
 		<control name="chkMatchWholeWord" text="Overeenkomen met hele woord"  />
 		<control name="chkMatchCase" text="Match Case"  />
 		<control name="cmdFindNext" text="Volgende zoeken"  />
 		<control name="cmdCancel" text="Annuleren" />
   </interfaceID>
-  <interfaceID name="frmSpellingDialog">
+  <interfaceID name="frmSpellingDialog" text="Spelling">
 		<control name="cmdIgnore" text="Negeren"  />		
 		<control name="cmdIgnoreAll" text="Negeer alles"  />
 		<control name="cmdAddToDictionary" text="Toevoegen aan woordenboek"  />

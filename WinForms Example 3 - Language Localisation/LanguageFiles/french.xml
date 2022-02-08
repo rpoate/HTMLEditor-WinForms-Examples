@@ -49,7 +49,7 @@
     <control name="LinkPropertiesToolStripMenuItem" text="Hyperlien Propriétés" tooltip="Hyperlien Propriétés" />
 	  <control name="tsbPrintPreview" text="Aperçu avant impression" tooltip="Aperçu avant impression" />
   </interfaceID>
-  <interfaceID name="frmImgProperties">
+  <interfaceID name="frmImgProperties" text="Propriétés de l'image">
       <control name="lblWidth" text="Largeur" />
       <control name="lblHeight" text="Hauteur" />
       <control name="chkConstrainProportions" text="Contraindre les proportions" />
@@ -63,17 +63,18 @@
 	  <control name="cmdBrowse" text="Feuilleter" />
 	  <control name="chkAspect" text="Maintenir le rapport hauteur/largeur" />
   </interfaceID>
-  <interfaceID name="frmHyperlink">
+  <interfaceID name="frmHyperlink" text="Hyperlink">
   		<control name="tabHyperlink" text="Hyperlink"  />
 		<control name="tabAnchor" text="Anchor"  />
 		<control name="lblProtocol" text="Protocole"  />
 		<control name="lblDestination" text="Destination"  />
 		<control name="lblTarget" text="Cible"  />
-		<control name="Label1" text="Échantillon"  />
+		<control name="Label1" text="Échantillon"  />		
+		<control name="lblSelectAnchor" text="sélectionner l'ancre"  />
       <control name="cmdOK" text="Appliquer"  />
       <control name="cmdCancel" text="Annuler" />
   </interfaceID>
-  <interfaceID name="frmSymbol">
+  <interfaceID name="frmSymbol" text="Insérer un symbole">
       <control name="cmdOK" text="Appliquer"  />
       <control name="cmdCancel" text="Annuler" />
   </interfaceID>
@@ -97,21 +98,21 @@
 	<control name="DeleteRowToolStripMenuItem" text="Enlever la Rangée" tooltip="Enlever la Rangée" />
 	<control name="DeleteCellToolStripMenuItem" text="Enlever la Cellule" tooltip="Enlever la Cellule" />
   </interfaceID>
-   <interfaceID name="frmCSSStyle">
+   <interfaceID name="frmCSSStyle" text="CSS Style">
 		<control name="Label1" text="Exemple"  />
 		<control name="TabPage1" text="Nouveaux styles CSS"  />		
 		<control name="TabPage2" text="Styles CSS existants"  />
 		<control name="cmdOK" text="Appliquer"  />
 		<control name="cmdCancel" text="Annuler" />
   </interfaceID>
-  <interfaceID name="frmTextSearch">
+  <interfaceID name="frmTextSearch" text="Texte de recherche">
 		<control name="lblFindWhat" text="Trouve:"  />		
 		<control name="chkMatchWholeWord" text="Correspond à un mot entier"  />
 		<control name="chkMatchCase" text="Cas de correspondance"  />
 		<control name="cmdFindNext" text="Rechercher suivant"  />
 		<control name="cmdCancel" text="Annuler" />
   </interfaceID>
-  <interfaceID name="frmSpellingDialog">
+  <interfaceID name="frmSpellingDialog" text="Orthographe">
 		<control name="cmdIgnore" text="Ignorer"  />		
 		<control name="cmdIgnoreAll" text="Ignorer tout"  />
 		<control name="cmdAddToDictionary" text="Ajouter au dictionnaire"  />

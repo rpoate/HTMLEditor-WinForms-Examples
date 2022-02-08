@@ -46,7 +46,7 @@
     <control name="LinkPropertiesToolStripMenuItem" text="Link Properties" tooltip="Link Properties" />
 	<control name="tsbPrintPreview" text="Print Preview" tooltip="Print Preview" />
   </interfaceID>
-  <interfaceID name="frmImgProperties">
+  <interfaceID name="frmImgProperties" text="Image Properties">
       <control name="lblWidth" text="Width" />
       <control name="lblHeight" text="Height" />
       <control name="chkConstrainProportions" text="Constrain Proportions" />
@@ -60,13 +60,14 @@
 	  <control name="cmdBrowse" text="Browse" />
 	  <control name="chkAspect" text="Maintain original aspect ratio" />
   </interfaceID>
-  <interfaceID name="frmHyperlink">
+  <interfaceID name="frmHyperlink" text="Hyperlink">
 		<control name="tabHyperlink" text="Hyperlink"  />
 		<control name="tabAnchor" text="Anchor"  />		
 		<control name="lblProtocol" text="Protocol"  />
 		<control name="lblDestination" text="Destination"  />
 		<control name="lblTarget" text="Target"  />
 		<control name="Label1" text="Sample"  />
+		<control name="lblSelectAnchor" text="Select Anchor"  />
 		<control name="cmdOK" text="Apply"  />
 		<control name="cmdCancel" text="Cancel" />
   </interfaceID>
@@ -87,25 +88,25 @@
 	  <control name="ImagePropetiesToolStripMenuItem" text="Image Propeties" />
 	  <control name="LinkPropertiesToolStripMenuItem" text="Link Properties" />	
   </interfaceID>
-  <interfaceID name="frmSymbol">
+  <interfaceID name="frmSymbol" text="Insert Symbol">
       <control name="cmdOK" text="Apply"  />
       <control name="cmdCancel" text="Cancel" />
   </interfaceID>
-  <interfaceID name="frmCSSStyle">
+  <interfaceID name="frmCSSStyle" text="CSS Style">
 		<control name="Label1" text="Example"  />
 		<control name="TabPage1" text="New Styles"  />		
 		<control name="TabPage2" text="Existing Styles"  />
 		<control name="cmdOK" text="Apply"  />
 		<control name="cmdCancel" text="Cancel" />
   </interfaceID>
-  <interfaceID name="frmTextSearch">
+  <interfaceID name="frmTextSearch" text="Search Text">
 		<control name="lblFindWhat" text="Find:"  />		
 		<control name="chkMatchWholeWord" text="Match whole word"  />
 		<control name="chkMatchCase" text="Match Case"  />
 		<control name="cmdFindNext" text="Find Next"  />
 		<control name="cmdCancel" text="Cancel" />
   </interfaceID>
-  <interfaceID name="frmSpellingDialog">
+  <interfaceID name="frmSpellingDialog" text="Spelling">
 		<control name="cmdIgnore" text="Ignore"  />		
 		<control name="cmdIgnoreAll" text="Ignore All"  />
 		<control name="cmdAddToDictionary" text="Add To Dictionary"  />

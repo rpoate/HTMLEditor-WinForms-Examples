@@ -48,7 +48,7 @@
     <control name="LinkPropertiesToolStripMenuItem" text="Proprieta hyperlink" tooltip="Proprieta hyperlink" />
 	<control name="tsbPrintPreview" text="Anteprima di stampa" tooltip="Anteprima di stampa" />
   </interfaceID>
-  <interfaceID name="frmImgProperties">
+  <interfaceID name="frmImgProperties" text="Proprietà dell'immagine">
       <control name="lblWidth" text="Larghezza" />
       <control name="lblHeight" text="Altezza" />
       <control name="chkConstrainProportions" text="Vincola le proporzioni" />
@@ -62,17 +62,18 @@
 	  <control name="cmdBrowse" text="Navigare" />
 	  <control name="chkAspect" text="Mantenere le proporzioni" />
   </interfaceID>
-    <interfaceID name="frmHyperlink">
+    <interfaceID name="frmHyperlink" text="Hyperlink">
 		<control name="tabHyperlink" text="Hyperlink"  />
 		<control name="tabAnchor" text="Anchor"  />
 		<control name="lblProtocol" text="Protocollo"  />
 		<control name="lblDestination" text="Destinazione"  />
 		<control name="lblTarget" text="Bersaglio"  />
 		<control name="Label1" text="il esemplare"  />
+		<control name="lblSelectAnchor" text="seleziona ancora"  />
       <control name="cmdOK" text="Applicare"  />
       <control name="cmdCancel" text="Annulla" />
   </interfaceID>
-  <interfaceID name="frmSymbol">
+  <interfaceID name="frmSymbol" text="Simbolo Inserimento">
       <control name="cmdOK" text="Applicare"  />
       <control name="cmdCancel" text="Annulla" />
   </interfaceID>  
@@ -93,21 +94,21 @@
 	<control name="DeleteColumnToolStripMenuItem" text="Rimuovi colonna" tooltip="Rimuovi colonna" />
 	<control name="DeleteCellToolStripMenuItem" text="Rimuovi cellula" tooltip="Rimuovi cellula" />
   </interfaceID>
-  <interfaceID name="frmCSSStyle">
+  <interfaceID name="frmCSSStyle" text="CSS Stili">
 		<control name="Label1" text="Esempio"  />
 		<control name="TabPage1" text="Nuovi stili"  />		
 		<control name="TabPage2" text="Stili esistenti"  />
 		<control name="cmdOK" text="Applicare"  />
 		<control name="cmdCancel" text="Annulla" />
   </interfaceID>
-  <interfaceID name="frmTextSearch">
+  <interfaceID name="frmTextSearch" text="Cerca testo">
 		<control name="lblFindWhat" text="Trova:"  />		
 		<control name="chkMatchWholeWord" text="Abbina parola intera"  />
 		<control name="chkMatchCase" text="Fiammifero"  />
 		<control name="cmdFindNext" text="Trova il prossimo"  />
 		<control name="cmdCancel" text="Annulla" />
   </interfaceID>
-  <interfaceID name="frmSpellingDialog">
+  <interfaceID name="frmSpellingDialog" text="Ortografia">
 		<control name="cmdIgnore" text="Ignorare"  />		
 		<control name="cmdIgnoreAll" text="Ignora tutto"  />
 		<control name="cmdAddToDictionary" text="Aggiungi al dizionario"  />
