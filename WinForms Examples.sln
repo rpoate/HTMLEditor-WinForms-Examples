@@ -25,7 +25,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Winforms Example 08 - Custo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms Example 09 - Table Properties Dialog", "Winforms Example 09 - Table Properties Dialog\Winforms Example 09 - Table Properties Dialog.csproj", "{A777E814-E562-4E53-93F7-411483646042}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Winforms Example 06 - SpellChecking (Win8 10 only)", "Winforms Example 06 - SpellChecking\Winforms Example 06 - SpellChecking (Win8 10 only).vbproj", "{B62C231A-8B73-453A-9AF6-F56A6B3A92DE}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Winforms Example 06 - SpellChecking (Win8 10 11 only)", "Winforms Example 06 - SpellChecking\Winforms Example 06 - SpellChecking (Win8 10 11 only).vbproj", "{B62C231A-8B73-453A-9AF6-F56A6B3A92DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
