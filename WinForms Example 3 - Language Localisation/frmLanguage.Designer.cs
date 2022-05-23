@@ -39,6 +39,7 @@
             this.germanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.spanishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dutchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.useAsViewerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -79,6 +80,7 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.useAsViewerToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -87,7 +89,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -107,44 +109,51 @@
             // englishToolStripMenuItem
             // 
             this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            this.englishToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.englishToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.englishToolStripMenuItem.Text = "English";
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // frenchToolStripMenuItem
             // 
             this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
-            this.frenchToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.frenchToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.frenchToolStripMenuItem.Text = "French";
             this.frenchToolStripMenuItem.Click += new System.EventHandler(this.frenchToolStripMenuItem_Click);
             // 
             // italianToolStripMenuItem
             // 
             this.italianToolStripMenuItem.Name = "italianToolStripMenuItem";
-            this.italianToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.italianToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.italianToolStripMenuItem.Text = "Italian";
             this.italianToolStripMenuItem.Click += new System.EventHandler(this.italianToolStripMenuItem_Click);
             // 
             // germanToolStripMenuItem
             // 
             this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
-            this.germanToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.germanToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.germanToolStripMenuItem.Text = "German";
             this.germanToolStripMenuItem.Click += new System.EventHandler(this.germanToolStripMenuItem_Click);
             // 
             // spanishToolStripMenuItem
             // 
             this.spanishToolStripMenuItem.Name = "spanishToolStripMenuItem";
-            this.spanishToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.spanishToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.spanishToolStripMenuItem.Text = "Spanish";
             this.spanishToolStripMenuItem.Click += new System.EventHandler(this.spanishToolStripMenuItem_Click);
             // 
             // dutchToolStripMenuItem
             // 
             this.dutchToolStripMenuItem.Name = "dutchToolStripMenuItem";
-            this.dutchToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dutchToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.dutchToolStripMenuItem.Text = "Dutch";
             this.dutchToolStripMenuItem.Click += new System.EventHandler(this.dutchToolStripMenuItem_Click);
+            // 
+            // useAsViewerToolStripMenuItem
+            // 
+            this.useAsViewerToolStripMenuItem.Name = "useAsViewerToolStripMenuItem";
+            this.useAsViewerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.useAsViewerToolStripMenuItem.Text = "Use As Viewer";
+            this.useAsViewerToolStripMenuItem.Click += new System.EventHandler(this.useAsViewerToolStripMenuItem_Click);
             // 
             // frmLanguage
             // 
@@ -178,6 +187,7 @@
         private System.Windows.Forms.ToolStripMenuItem germanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem spanishToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dutchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem useAsViewerToolStripMenuItem;
     }
 }
 

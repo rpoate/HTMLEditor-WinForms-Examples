@@ -71,5 +71,23 @@ namespace WinForms_Example_3___Language_Localisation
         {
             oEdit.LanguageFile = "LanguageFiles\\dutch.xml";
         }
+
+        private void useAsViewerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (useAsViewerToolStripMenuItem.Text == "Use As Viewer") { 
+                oEdit.EditingDisabled =  true;
+                this.useAsViewerToolStripMenuItem.Text = "Use As Editor";
+                oEdit.HideDOMToolbar = true;
+                oEdit.HideMainToolbar = true;
+            } 
+            else
+            {
+                oEdit.EditingDisabled = false;
+                this.useAsViewerToolStripMenuItem.Text = "Use As Viewer";
+                oEdit.HideDOMToolbar = false;
+                oEdit.HideMainToolbar = false;
+            }
+
+        }
     }
 }

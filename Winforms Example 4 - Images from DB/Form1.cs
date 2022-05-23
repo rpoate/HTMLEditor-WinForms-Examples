@@ -49,9 +49,9 @@ namespace Winforms_Example_4___Images_from_DB
                     //Get the path of specified file
                     filePath = openFileDialog.FileName;
 
-                    if (new FileInfo(filePath).Length > 32768)
+                    if (new FileInfo(filePath).Length > 131072)
                     {
-                        MessageBox.Show("This demo limits file sizes to those below 32K. It is not recommended to embed files larger than 32K. Please select another file.");
+                        MessageBox.Show("This demo limits file sizes to those below 128Kb. It is not recommended to embed files larger than 32K. Please select another file.");
                         return;
                     }
 
