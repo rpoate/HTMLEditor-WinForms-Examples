@@ -184,7 +184,7 @@ namespace Winforms_Example_09___Table_Properties_Dialog_CS
             if (element.TagName.ToLower() == "td")
                 return element;
             else
-                return FindTableElement(element.Parent);
+                return FindTDElement(element.Parent);
         }
 
     }

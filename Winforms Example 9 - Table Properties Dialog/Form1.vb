@@ -168,7 +168,7 @@
         If element.TagName.ToLower() = "td" Then
             Return element
         Else
-            Return FindTableElement(element.Parent)
+            Return FindTDElement(element.Parent)
         End If
 
     End Function
