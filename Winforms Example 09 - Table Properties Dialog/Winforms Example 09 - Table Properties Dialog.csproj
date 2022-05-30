@@ -38,8 +38,8 @@
     </StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HTMLEditor, Version=2.4.4.293, Culture=neutral, PublicKeyToken=7e79dd0f3fedb2ef, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zoople.HTMLEditor.2.4.4.293\lib\net40\HTMLEditor.dll</HintPath>
+    <Reference Include="HTMLEditor, Version=2.4.5.295, Culture=neutral, PublicKeyToken=7e79dd0f3fedb2ef, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zoople.HTMLEditor.2.4.5.295\lib\net40\HTMLEditor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
