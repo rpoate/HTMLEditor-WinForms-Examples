@@ -53,8 +53,8 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HTMLEditor, Version=2.4.7.297, Culture=neutral, PublicKeyToken=7e79dd0f3fedb2ef, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zoople.HTMLEditor.2.4.7.297\lib\net472\HTMLEditor.dll</HintPath>
+    <Reference Include="HTMLEditor, Version=2.4.10.300, Culture=neutral, PublicKeyToken=7e79dd0f3fedb2ef, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zoople.HTMLEditor.2.4.10.300\lib\net472\HTMLEditor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
