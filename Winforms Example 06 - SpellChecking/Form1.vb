@@ -24,6 +24,10 @@ Public Class Form1
         Me.HtmlEditControl1.SpellingAutoCorrectionList.Add("td", "trademark")
         Me.HtmlEditControl1.SpellingAutoCorrectionList.Add("pp", "<span style='color:red'>pianissimo</span>")
 
+        ' and some custom dictionary entries - these are not checked
+        Me.HtmlEditControl1.SpellingIgnoreList.Add("zoople")
+        Me.HtmlEditControl1.SpellingIgnoreList.Add("insta") ' 
+
     End Sub
 
     Private Sub SpellCheckButtonDialog_Click(sender As Object, e As EventArgs)
