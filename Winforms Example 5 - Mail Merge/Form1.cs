@@ -41,9 +41,10 @@ namespace Winforms_Example_4___Mail_Merge
         private void PerformMergeButton_Click(object sender, EventArgs e)
         {
 
-            htmlEditControl2.DocumentHTML = htmlEditControl1.DocumentHTML;
+            var newDoc = this.htmlEditControl1.DocumentClone;
+            //htmlEditControl2.DocumentHTML = htmlEditControl1.DocumentHTML;
 
-            foreach (HtmlElement link in htmlEditControl2.Document.Links)
+            foreach (HtmlElement link in newDoc.Links)
             {
                 switch (link.GetAttribute("data-merge"))
                 {
@@ -59,6 +60,9 @@ namespace Winforms_Example_4___Mail_Merge
                         break;
                 }
             }
+
+            this.htmlEditControl2.DocumentHTML = newDoc.Body.InnerHtml;
+
         }
 
         private void InsertFieldButton_Click(object sender, EventArgs e)
