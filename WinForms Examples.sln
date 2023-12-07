@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.156
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms Example 01 - Simple Dynamic Example", "WinForms Example 1 - Simple\WinForms Example 01 - Simple Dynamic Example.csproj", "{4DAB1A54-D258-426C-8597-8F0EE2B55625}"
 EndProject
