@@ -33,7 +33,7 @@ namespace Winforms_Example_11___Email_Message
                 EnableInlineSpelling = true,
                 BaseURL = Application.StartupPath.Replace("\\", "/"),
                 UseRelativeURLs = true,
-                ImageStorageLocation = Path.Combine( Application.StartupPath , "images")
+                ImageStorageLocation = Path.Combine(Application.StartupPath, "images")
             };
 
             Controls.Add(oEdit);
@@ -62,7 +62,17 @@ namespace Winforms_Example_11___Email_Message
         private void AsEmail_Click(object sender, EventArgs e)
         {
 
-            string EditorHTML = oEdit.DocumentHTML;
+            HtmlDocument oMailDoc;
+
+            if (oEdit.DocumentClone != null)
+            {
+                oMailDoc = oEdit.DocumentClone;
+            }
+            else
+            {
+                MessageBox.Show("Error - Document not initialized", "HTML Editor Example");
+                return;
+            }
 
             MailMessage newMail = new MailMessage();
             newMail.To.Add(new MailAddress("you@your.address"));
@@ -72,7 +82,7 @@ namespace Winforms_Example_11___Email_Message
 
             List<LinkedResource> inlineLogoList = new List<LinkedResource>();
 
-            foreach (HtmlElement oImage in oEdit.GetItemsByTagName("img"))
+            foreach (HtmlElement oImage in oMailDoc.GetElementsByTagName("img"))
             {
                 Uri oUri = new Uri(oImage.GetAttribute("src"));
                 if (oUri.IsFile)
@@ -85,8 +95,8 @@ namespace Winforms_Example_11___Email_Message
                     inlineLogoList.Add(inlineLogo);
                 }
             }
-             
-            var view = AlternateView.CreateAlternateViewFromString(oEdit.Document.Body.OuterHtml, null, "text/html");
+
+            var view = AlternateView.CreateAlternateViewFromString(oMailDoc.Body.OuterHtml, null, "text/html");
 
             foreach (LinkedResource inlineLogo in inlineLogoList)
             {
@@ -95,7 +105,7 @@ namespace Winforms_Example_11___Email_Message
 
             newMail.AlternateViews.Add(view);
 
-            var view2 = AlternateView.CreateAlternateViewFromString(oEdit.Document.Body.InnerText, Encoding.ASCII, "text/plain");
+            var view2 = AlternateView.CreateAlternateViewFromString(oMailDoc.Body.InnerText, Encoding.ASCII, "text/plain");
             newMail.AlternateViews.Add(view2);
 
             SmtpClient client = new SmtpClient("mysmtphost")
@@ -104,8 +114,6 @@ namespace Winforms_Example_11___Email_Message
                 PickupDirectoryLocation = Application.StartupPath + "/SMTPPickupFolder"
             };
             client.Send(newMail);
-
-            oEdit.DocumentHTML = EditorHTML;
 
             MessageBox.Show("Successfully saved to \r\n\r\n " + Application.StartupPath + "/SMTPPickupFolder");
 
