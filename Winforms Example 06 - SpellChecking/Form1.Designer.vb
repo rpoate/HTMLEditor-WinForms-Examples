@@ -23,32 +23,38 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.HtmlEditControl1 = New Zoople.HTMLEditControl()
         Me.SuspendLayout()
         '
         'HtmlEditControl1
         '
-        Me.HtmlEditControl1.AllowDragInternal = True
+        Me.HtmlEditControl1.AcceptsReturn = True
         Me.HtmlEditControl1.BaseURL = Nothing
         Me.HtmlEditControl1.CleanMSWordHTMLOnPaste = True
+        Me.HtmlEditControl1.CodeEditor.Enabled = True
+        Me.HtmlEditControl1.CodeEditor.Font = New System.Drawing.Font("Courier New", 10.0!)
+        Me.HtmlEditControl1.CodeEditor.Locked = False
+        Me.HtmlEditControl1.CodeEditor.TabWidth = 720
+        Me.HtmlEditControl1.CodeEditor.WordWrap = False
         Me.HtmlEditControl1.CSSText = Nothing
         Me.HtmlEditControl1.DefaultSpellingLanguage = "en-US"
         Me.HtmlEditControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.HtmlEditControl1.DocumentHTML = Nothing
-        Me.HtmlEditControl1.EditingDisabled = False
         Me.HtmlEditControl1.EnableInlineSpelling = True
+        Me.HtmlEditControl1.FontSizesList = Nothing
         Me.HtmlEditControl1.FontsList = Nothing
         Me.HtmlEditControl1.HiddenButtons = Nothing
         Me.HtmlEditControl1.ImageStorageLocation = Nothing
         Me.HtmlEditControl1.InCodeView = False
+        Me.HtmlEditControl1.IndentAmount = 2
+        Me.HtmlEditControl1.IndentsUseBlockuote = False
         Me.HtmlEditControl1.LanguageFile = Nothing
+        Me.HtmlEditControl1.LicenceActivationKey = Nothing
         Me.HtmlEditControl1.LicenceKey = Nothing
         Me.HtmlEditControl1.LicenceKeyInlineSpelling = Nothing
         Me.HtmlEditControl1.Location = New System.Drawing.Point(0, 0)
         Me.HtmlEditControl1.Name = "HtmlEditControl1"
-        Me.HtmlEditControl1.Size = New System.Drawing.Size(800, 450)
-        Me.HtmlEditControl1.SpellingAutoCorrectionList = CType(resources.GetObject("HtmlEditControl1.SpellingAutoCorrectionList"), System.Collections.Hashtable)
+        Me.HtmlEditControl1.Size = New System.Drawing.Size(1094, 546)
         Me.HtmlEditControl1.TabIndex = 0
         Me.HtmlEditControl1.ToolstripImageScalingSize = New System.Drawing.Size(16, 16)
         Me.HtmlEditControl1.UseParagraphAsDefault = True
@@ -57,7 +63,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1094, 546)
         Me.Controls.Add(Me.HtmlEditControl1)
         Me.Name = "Form1"
         Me.Text = "Form1"
