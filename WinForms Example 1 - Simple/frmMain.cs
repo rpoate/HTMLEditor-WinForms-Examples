@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace WinForms_Examples
@@ -30,7 +32,7 @@ namespace WinForms_Examples
             oEdit.CodeEditor.WordWrap = true;
 
             Controls.Add(oEdit);
-
+      
         }
     }
 }
