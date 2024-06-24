@@ -34,6 +34,7 @@ namespace Winforms_Example_4___Mail_Merge
 
             this.htmlEditControl1.DocumentHTML = "<p>Dear <a data-merge=\"Salutation\" href=\"#\">Salutation</a>,</p><p>Please find a quote for <a data-merge=\"Company\" href=\"#\">Company</a>&nbsp;attached</p><p>Our records show that your email address is registered as <a data-merge=\"Email\" href=\"#\">Email</a></p><p>regards</p><p><strong>Some Other Company</strong></p>";
 
+            this.htmlEditControl1.DuplicateBasicTextFormattingAfterEnterKey = false;
             this.htmlEditControl1.Focus();
 
         }
@@ -55,14 +56,13 @@ namespace Winforms_Example_4___Mail_Merge
                         link.OuterText = "Smith and Co.";
                         break;
                     case "Email":
-                        link.InnerText = "smith@smithandco.com";
+                        link.OuterText = "smith@smithandco.com";
                         link.SetAttribute("href", "mailto:smith@smithandco.com");
                         break;
                 }
             }
 
             this.htmlEditControl2.DocumentHTML = newDoc.Body.InnerHtml;
-
         }
 
         private void InsertFieldButton_Click(object sender, EventArgs e)
