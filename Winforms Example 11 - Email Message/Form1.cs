@@ -10,6 +10,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Zoople;
 
 namespace Winforms_Example_11___Email_Message
 {
@@ -25,7 +26,7 @@ namespace Winforms_Example_11___Email_Message
             oEdit = new Zoople.HTMLEditControl
             {
                 Dock = DockStyle.Fill,
-                DocumentHTML = "<img align='right' src='images/anna2.jpg' width='200px'/><h2>Saving as an Email with inline images.</h2><p>This example shows how to save an eml file containing inline (embedded) images</p>",
+                DocumentHTML = "<img align='right' src='images/anna2.jpg' style='width: 200px;'/><h2>Saving as an Email with inline images.</h2><p>This example shows how to save an eml file containing inline (embedded) images</p>",
                 ShowPropertyGrid = false,
                 CSSText = "BODY {font-family: Arial Unicode MS, Arial, Sans-Serif;}",
                 LicenceKey = "YourLicenseKey",
@@ -46,12 +47,6 @@ namespace Winforms_Example_11___Email_Message
             oButtonSpell.Click += OButtonSpell_Click;
             oButtonSpell.Padding = new Padding(3);
 
-            oEdit.SpellCheckComplete += OEdit_SpellCheckComplete;
-        }
-
-        private void OEdit_SpellCheckComplete(object sender, EventArgs e)
-        {
-            MessageBox.Show("Spelling Check Completed");
         }
 
         private void OButtonSpell_Click(object sender, EventArgs e)
@@ -92,6 +87,19 @@ namespace Winforms_Example_11___Email_Message
                         ContentId = Guid.NewGuid().ToString()
                     };
                     oImage.SetAttribute("src", "cid:" + inlineLogo.ContentId);
+
+                    if (GetElementInlineStyleValue(oImage, "width") != "")
+                        oImage.SetAttribute("width", GetElementInlineStyleValue(oImage, "width").Replace("px", ""));
+                    else if (oImage.GetAttribute("width") != "0")
+                        oImage.Style = ChangeElementStyle(oImage, "width", oImage.GetAttribute("width").Contains("px") ? 
+                            oImage.GetAttribute("width") : oImage.GetAttribute("width") + "px");
+
+                    if (GetElementInlineStyleValue(oImage, "height") != "")
+                        oImage.SetAttribute("height", GetElementInlineStyleValue(oImage, "height").Replace("px", ""));
+                    else if (oImage.GetAttribute("height") != "0")
+                        oImage.Style = ChangeElementStyle(oImage, "height", oImage.GetAttribute("height").Contains("px") ? 
+                            oImage.GetAttribute("height") : oImage.GetAttribute("height") + "px");
+
                     inlineLogoList.Add(inlineLogo);
                 }
             }
@@ -117,6 +125,120 @@ namespace Winforms_Example_11___Email_Message
 
             MessageBox.Show("Successfully saved to \r\n\r\n " + Application.StartupPath + "/SMTPPickupFolder");
 
+        }
+
+        public string ChangeElementStyle(HtmlElement Element, string Attribute, string Value)
+        {
+            try
+            {
+                if (Value == null || Value == "")
+                    return RemoveElementStyle(Element.Style, Attribute);
+                else
+                    return UpdateElementStyle(Element.Style, Attribute, Value);
+            }
+            catch
+            {
+                return Element.Style;
+            }
+        }
+
+        private string RemoveElementStyle(string CurrentStyle, string Attribute)
+        {
+            string[] AllAttributes = new string[0];
+            string NewStyle = "";
+
+            if (CurrentStyle != null)
+                AllAttributes = CurrentStyle.Split(char.Parse(";"));
+
+            try
+            {
+                foreach (string FullAttribute in AllAttributes)
+                {
+                    if (FullAttribute != null && FullAttribute.Trim() != "")
+                    {
+                        if (FullAttribute.Substring(0, FullAttribute.IndexOf(":")).ToLower().Trim() != Attribute.ToLower().Trim())
+                            NewStyle += FullAttribute + "; ";
+                    }
+                }
+                return NewStyle;
+            }
+            catch
+            {
+                return "";
+            }
+        }
+
+
+        private string UpdateElementStyle(string CurrentStyle, string Attribute, string Value)
+        {
+            string[] AllAttributes = new string[1];
+            string NewStyle = "";
+            bool FoundAttribute = false;
+
+            if (CurrentStyle != null)
+                AllAttributes = CurrentStyle.Split(char.Parse(";"));
+
+            try
+            {
+                foreach (string FullAttribute in AllAttributes)
+                {
+                    if (FullAttribute != null && FullAttribute.Trim() != "")
+                    {
+                        if (FullAttribute.Substring(0, FullAttribute.IndexOf(":")).ToLower().Trim() == Attribute.ToLower().Trim())
+                        {
+                            NewStyle += FullAttribute.Substring(0, (FullAttribute.IndexOf(":")) + 1) + ": " + Value + "; ";
+                            FoundAttribute = true;
+                        }
+                        else
+                            NewStyle += FullAttribute + "; ";
+                    }
+                }
+
+                if (!FoundAttribute)
+                    NewStyle += Attribute + ": " + Value + "; ";
+
+                return NewStyle;
+            }
+            catch
+            {
+                return "";
+            }
+        }
+
+        public string GetElementInlineStyleValue(HtmlElement Element, string Attribute)
+        {
+            string CurrentStyle;
+            string value = "";
+
+            try
+            {
+                CurrentStyle = Element.Style;
+
+                if (CurrentStyle != null)
+                {
+                    if (!CurrentStyle.Trim().EndsWith(";"))
+                        CurrentStyle += ";";
+
+                    string[] AllAttributes = CurrentStyle.Split(char.Parse(";"));
+
+                    foreach (string FullAttribute in AllAttributes)
+                    {
+                        if (FullAttribute != null && FullAttribute.Trim() != "")
+                        {
+                            if (FullAttribute.Substring(0, FullAttribute.IndexOf(":")).ToLower().Trim() == Attribute.Trim().ToLower())
+                            {
+                                value = FullAttribute.Substring(FullAttribute.IndexOf(":") + 1).Trim();
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+            catch
+            {
+            }
+
+            return value;
         }
 
         private void Form1_Load(object sender, EventArgs e)

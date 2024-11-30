@@ -56,16 +56,11 @@ Public Class Form1
         Me.HtmlEditControl1.SpellCheckDocument(False)
     End Sub
 
-    Private Sub HtmlEditControl1_DocumentLoadComplete(sender As Object, e As EventArgs) Handles HtmlEditControl1.DocumentLoadComplete
-        Me.HtmlEditControl1.SpellCheckDocument(False)
-    End Sub
-
     Private Sub HtmlEditControl1_DefaultSpellingLanguageChanged(sender As Object, e As EventArgs) Handles HtmlEditControl1.DefaultSpellingLanguageChanged
         oLanguagesCombo.SelectedItem = Me.HtmlEditControl1.DefaultSpellingLanguage
         Try
             Me.HtmlEditControl1.SpellCheckDocument(False)
         Catch
         End Try
-
     End Sub
 End Class
