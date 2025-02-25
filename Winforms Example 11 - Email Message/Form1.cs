@@ -28,15 +28,16 @@ namespace Winforms_Example_11___Email_Message
                 Dock = DockStyle.Fill,
                 DocumentHTML = "<img align='right' src='images/anna2.jpg' style='width: 200px;'/><h2>Saving as an Email with inline images.</h2><p>This example shows how to save an eml file containing inline (embedded) images</p>",
                 ShowPropertyGrid = false,
-                CSSText = "BODY {font-family: Arial Unicode MS, Arial, Sans-Serif;}",
+                CSSText = "BODY {font-family: Arial Unicode MS, Arial, Sans-Serif; font-size: 12pt}",
                 LicenceKey = "YourLicenseKey",
                 LicenceKeyInlineSpelling = "YourInlineSpellingLicenseKey",
                 EnableInlineSpelling = true,
                 BaseURL = Application.StartupPath.Replace("\\", "/"),
                 UseRelativeURLs = true,
-                ImageStorageLocation = Path.Combine(Application.StartupPath, "images")
+                ImageStorageLocation = Path.Combine(Application.StartupPath, "images"),
+                DuplicateBasicTextFormattingAfterEnterKey = false
             };
-
+            
             Controls.Add(oEdit);
 
             var oButton = oEdit.ToolStripItems.Add("Save As Email");
