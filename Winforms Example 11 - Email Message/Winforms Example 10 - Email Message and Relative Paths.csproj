@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Winforms_Example_11___Email_Message</RootNamespace>
     <AssemblyName>Winforms Example 11 - Email Message</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -34,8 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HTMLEditor, Version=2.9.4.344, Culture=neutral, PublicKeyToken=7e79dd0f3fedb2ef, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zoople.HTMLEditor.2.9.4.344\lib\NETFramework4.7.2\HTMLEditor.dll</HintPath>
+    <Reference Include="HTMLEditor, Version=2.9.6.346, Culture=neutral, PublicKeyToken=7e79dd0f3fedb2ef, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zoople.HTMLEditor.2.9.6.346\lib\NETFramework4.8\HTMLEditor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

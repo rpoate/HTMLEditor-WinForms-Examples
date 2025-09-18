@@ -21,7 +21,7 @@ namespace WinForms_Example_3___Language_Localisation
 
         private void frmLanguage_Load(object sender, EventArgs e)
         {
-            oEdit = new Zoople.HTMLEditControl
+            oEdit = new  Zoople.HTMLEditControl
             {
                 Dock = DockStyle.Fill,
                 CSSText = "BODY {border: 0; font-family: Arial}",
