@@ -28,7 +28,6 @@ namespace WinForms_Example_3___Language_Localisation
                 DocumentHTML = "<h1>Localisation</h2><p>The editor component is localisable into other languages via customisable XML files.</p><p>There are six language xml files included the installation package; French, Italian, Dutch, Spanish, German and English.</p>"
             };
             oEdit.ConfigurationError += oEdit_ConfigurationError;
-
             this.toolStripContainer1.ContentPanel.Controls.Add(oEdit);
         }
 
